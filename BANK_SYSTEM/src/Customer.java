@@ -20,9 +20,9 @@ public class Customer {
 
     }
 
-    public void setAccountId(int id) {
+    public void setAccountId(int accountId) {
 
-        this.accountId = id;
+        this.accountId = accountId;
 
     }
 

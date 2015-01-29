@@ -25,18 +25,23 @@ public class BankSystem extends JFrame {
 
         // Set the app to center of the screen.
         setLocationRelativeTo(null);
+
     }
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
+
         // Ask swing to run the following at any convenience.
-        invokeLater(new Runnable()
-        {
-            public void run()
-            {
+        invokeLater(new Runnable() {
+
+            public void run() {
+
                 // Create a new instance of our app and make it visible.
                 new BankSystem().setVisible(true);
+
             }
+
         });
+
     }
+
 }
